@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ملفي الشخصي — 7MO</title>
+    <meta name="description" content="موقع شخصي احترافي يعرّف عني وأعمالي ومهاراتي.">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ملفي الشخصي — 7MO">
+    <meta property="og:description" content="موقع شخصي احترافي يعرّف عني وأعمالي ومهاراتي.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=".">
+    <meta property="og:image" content="./favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#home">تخطي إلى المحتوى</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="العودة إلى الرئيسية">7MO</a>
+            <nav class="nav" aria-label="التنقل الرئيسي">
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="فتح/إغلاق القائمة">☰</button>
+                <ul class="nav-list" id="primaryNav">
+                    <li><a href="#home" class="nav-link" data-link>الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link" data-link>من أنا</a></li>
+                    <li><a href="#skills" class="nav-link" data-link>المهارات</a></li>
+                    <li><a href="#projects" class="nav-link" data-link>أعمالي</a></li>
+                    <li><a href="#contact" class="nav-link" data-link>تواصل</a></li>
+                </ul>
+            </nav>
+            <button id="themeToggle" class="theme-toggle" aria-label="تبديل الوضع">🌓</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section hero" data-section data-reveal>
+            <div class="container grid-2">
+                <div>
+                    <h1 class="hero-title">أهلاً، أنا <span class="accent">7MO</span></h1>
+                    <p class="hero-subtitle">مطور واجهات وتجارب رقمية احترافية</p>
+                    <p class="hero-text">أبني مواقع سريعة، حديثة، ومتجاوبة تُبرز هويتك الرقمية وتدعم أهدافك.</p>
+                    <div class="actions">
+                        <a href="#projects" class="btn btn-primary">شاهد أعمالي</a>
+                        <a href="#contact" class="btn btn-outline">تواصل معي</a>
+                    </div>
+                </div>
+                <div class="hero-media" aria-hidden="true">
+                    <div class="hero-avatar">7MO</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section" data-section data-reveal>
+            <div class="container">
+                <h2 class="section-title">من أنا</h2>
+                <p class="section-text">أنا مطور واجهات أمامية أركز على الجودة وتجربة المستخدم. بحب أبسّط التعقيد وأبني منتجات أنيقة وعملية.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section" data-section data-reveal>
+            <div class="container">
+                <h2 class="section-title">المهارات</h2>
+                <p class="section-text">باستخدم أحدث تقنيات الويب لبناء واجهات سريعة، آمنة، وقابلة للتطوير مع تجربة استخدام ممتازة.</p>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">🧩</div>
+                        <h3>واجهات أمامية</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript (ES6+)</span>
+                            <span class="tag">RTL</span>
+                            <span class="tag">A11y</span>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">⚛️</div>
+                        <h3>إطارات العمل</h3>
+                        <div class="skill-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">SPA/SSR</span>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">🛠️</div>
+                        <h3>أدوات وتدفق عمل</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Performance</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section" data-section data-reveal>
+            <div class="container">
+                <h2 class="section-title">أعمالي</h2>
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="https://picsum.photos/seed/project1/800/600" alt="سكرين من مشروع 1">
+                        </div>
+                        <h3>مشروع 1</h3>
+                        <p>وصف مختصر للمشروع والنتائج المحققة.</p>
+                        <a class="card-link" href="#" target="_blank" rel="noopener">عرض</a>
+                    </article>
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="https://picsum.photos/seed/project2/800/600" alt="سكرين من مشروع 2">
+                        </div>
+                        <h3>مشروع 2</h3>
+                        <p>وصف مختصر للمشروع والنتائج المحققة.</p>
+                        <a class="card-link" href="#" target="_blank" rel="noopener">عرض</a>
+                    </article>
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="https://picsum.photos/seed/project3/800/600" alt="سكرين من مشروع 3">
+                        </div>
+                        <h3>مشروع 3</h3>
+                        <p>وصف مختصر للمشروع والنتائج المحققة.</p>
+                        <a class="card-link" href="#" target="_blank" rel="noopener">عرض</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section" data-section data-reveal>
+            <div class="container">
+                <h2 class="section-title">تواصل معي</h2>
+                <form class="contact-form" name="contact" netlify>
+                    <div class="form-row">
+                        <label for="name">الاسم</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">رسالتك</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> 7MO — جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
