@@ -37,3 +37,42 @@
 - حقوق النشر © 2025 7MO. ليك كامل الحق في استخدام، نسخ، تعديل، ودمج الكود مع ذكر الحقوق وملف الرخصة.
 - لو هتنشر نسخة عامة، سيب سطر حقوق النشر والرخصة زي ما هو.
 
+## Sleek Personal Website (RTL-ready)
+
+### Getting Started
+- Open the `personal-site` folder in your editor.
+- Edit your name, bio, and links in `index.html`.
+- Tweak colors and fonts in `styles.css` to match your branding.
+
+### Run Locally
+- Just open `index.html` directly in your browser.
+
+### Deploy on GitHub Pages (Project site)
+1) Create a new GitHub repository (e.g., `personal-site`).
+2) Push all files to the `main` branch.
+3) Go to Settings → Pages:
+   - Source: select `Deploy from a branch`.
+   - Branch: choose `main` and folder `/root`, then Save.
+4) Your site will be available at: `https://USERNAME.github.io/REPO`.
+
+Notes:
+- Asset links are relative (`./favicon.svg`, `./styles.css`, `./script.js`) to work on Pages.
+- For a custom domain, add a `CNAME` file at the root with your domain.
+
+### Features
+- Full RTL support and Cairo font
+- Light/Dark mode with preference saved
+- Sections: Home, About, Skills, Projects, Contact
+- Smooth scroll and active nav highlighting
+- Subtle animations: gradient text, staggered reveals, and card tilt
+
+### Quick Customization
+- Update hero text and avatar in `index.html`.
+- Add project screenshots in the Projects section by editing each card's `<img>`.
+- If you prefer fewer animations, enable “Reduce motion” in your OS; the site respects it.
+
+### License
+- Licensed under the MIT License. See `LICENSE`.
+- Copyright © 2025 7MO.
+
+
